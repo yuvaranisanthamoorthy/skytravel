@@ -1,0 +1,50 @@
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: orange;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: orange;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+.body{
+    background-size: cover; background-image: url(traveling-with-off-road-car.jpg); height: 100%;
+ background: linear-gradient(to top, rgba(0,0,0,0,5)50%, rgba(0,0,0,0,5)50%);
+background-position: center;
+background-repeat: no-repeat; filter: brightness(100%);
+ 
+}
