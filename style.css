@@ -19,8 +19,22 @@ body{
     list-style: none;
     display: inline-block;
     padding: 0.30px;
+     margin-left: 62px;
+    margin-top: 27px;
+     font-size: 14px; 
+    color: rgb(252, 126, 8); 
+    text-decoration: none;
+    font-family: Arial;
+     font-weight: bold;
+    transition: 0.4s ease-in-out;
     
 
+ }
+ .navbar ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
  }
 .navbar li a:hover{
     color: #f1a501;
