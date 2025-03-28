@@ -73,6 +73,9 @@ body{
  margin-bottom: 1rem;
  font-size: 20px;
  padding-left: 10%;
+ margin-left: 2%
+ 
+;
  
 
 
@@ -86,12 +89,14 @@ body{
     line-height: 1.1;
     padding-left: 5px;
     width: 50%;
+    margin-left: 2%
 }
 .left-content p{
     margin-top: 1;
     font-weight: 500;
     margin-bottom: 1.8;
     width: 50%;
+    margin-left: 2%
 }
 
 .contact-btn{
