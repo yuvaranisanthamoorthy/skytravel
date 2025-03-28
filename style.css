@@ -12,10 +12,25 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 30px;
+    padding: 30px 10px;
  }
 
+ .navbar li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.30px;
+    
 
+ }
+.navbar li a:hover{
+    color: #f1a501;
+}
+ li,a,button{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #212832;
+ }
 
 .search{
     width: 330px;
