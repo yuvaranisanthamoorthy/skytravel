@@ -3,10 +3,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #5e6282;
     background-color: #fffefe;
-    background-image: url(traveling-with-off-road-car.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center;
-
+    background-repeat: no-repeat; filter: brightness(100%);
 }
  header{
     display: flex;
@@ -51,6 +51,37 @@ body{
     float: left;
     margin-left: 270px;
 }
+.signup-btn{
+    border: 2px solid black;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+
+
+}
+.left-container{
+    float: left
+    width 50%;
+}  
+
+.left-content{
+    margin-left: 130px;
+    margin-top: 90px;
+}
+.left-content h4{
+ color: #df6951;
+ font-weight: 700;
+ margin-bottom: 1rem;
+ font-size: 20px;
+
+}
+    
+.left-content h1{
+    font-size: 4.623663rem;
+    font-weight: 700;
+    color: #181e4b;
+    margin-bottom: 5px;
+    line-height: 1.1
+}
 .srch{
     font-family: 'Times New Roman';
     width: 200px;
@@ -89,10 +120,5 @@ body{
 .srch:focus{
     outline: none;
 }
-.body{
-    background-size: cover; background-image: url(traveling-with-off-road-car.jpg); height: 100%;
- background: linear-gradient(to top, rgba(0,0,0,0,5)50%, rgba(0,0,0,0,5)50%);
-background-position: center;
-background-repeat: no-repeat; filter: brightness(100%);
- 
-}
+
+
