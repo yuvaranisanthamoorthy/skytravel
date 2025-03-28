@@ -1,3 +1,22 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5e6282;
+    background-color: #fffefe;
+    background-image: url(traveling-with-off-road-car.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+ }
+
+
+
 .search{
     width: 330px;
     float: left;
