@@ -54,14 +54,12 @@ body{
 .signup-btn{
     border: 2px solid black;
     padding: 5px 10px 5px 10px;
-    border-radius: 5px;
-
-
-}
-.left-container{
+    border-radius: 5px;}
+ .left-container{
     float: left
     width 50%;
-}  
+}
+ 
 
 .left-content{
     margin-left: 130px;
@@ -74,6 +72,8 @@ body{
  margin-bottom: 1rem;
  font-size: 20px;
  padding-left: 10%;
+ width: 50%;
+ float: ri;
 
 }
     
@@ -84,11 +84,13 @@ body{
     margin-bottom: 5px;
     line-height: 1.1;
     padding-left: 5px;
+    width: 50%;
 }
 .left-content p{
     margin-top: 1;
     font-weight: 500;
     margin-bottom: 1.8;
+    width: 50%;
 }
 
 .contact-btn{
