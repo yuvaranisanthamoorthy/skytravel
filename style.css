@@ -82,7 +82,7 @@ body{
 }
     
 .left-content h1{
-    font-size: 1.1rem;
+    font-size: 40px;
     font-weight: 500;
     color: #020b49;
     margin-bottom: 5px;
@@ -150,4 +150,16 @@ body{
     outline: none;
 }
 
-
+.submit{
+    padding: 10px 20px 10px 20px;
+    border-radius: 3
+    px;
+    background-color: #05971d;
+    color: #fff;
+}
+.reset{
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    background-color: #99250e;
+    color: #fff;
+}
