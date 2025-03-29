@@ -116,7 +116,7 @@ body{
     width: 200px;
     height: 40px;
     background: transparent;
-    border: 1px solid orange;
+    border: 5px solid rgb(102, 5, 61);
     margin-top: 13px;
     color: orange;
     border-right: none;
@@ -133,10 +133,10 @@ body{
 .btn{
     width: 100px;
     height: 40px;
-    background: orange;
-    border: 2px solid orange;
+    background: rgb(236, 233, 228);
+    border: 5px solid rgb(102, 5, 61);
     margin-top: 13px;
-    color: orange;
+    color: rgb(20, 20, 19);
     font-size: 15px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
