@@ -21,7 +21,7 @@ body{
     padding: 0.30px;
      margin-left: 62px;
     margin-top: 27px;
-     font-size: 14px; 
+     font-size: 25px; 
     color: rgb(252, 126, 8); 
     text-decoration: none;
     font-family: Arial;
@@ -42,7 +42,7 @@ body{
  li,a,button{
     text-decoration: none;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 25px;
     color: #212832;
  }
 
@@ -69,9 +69,9 @@ body{
 }
 .left-content h4{
  color: #df6951;
- font-weight: 700;
+ font-weight: 500;
  margin-bottom: 1rem;
- font-size: 20px;
+ font-size: 15px;
  padding-left: 10%;
  margin-left: 0
  
@@ -82,8 +82,8 @@ body{
 }
     
 .left-content h1{
-    font-size: 4.623663rem;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 500;
     color: #181e4b;
     margin-bottom: 5px;
     line-height: 1.1;
