@@ -168,3 +168,58 @@ body{
 .one{
     color: white;
 }
+
+.category-title{
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 150px;
+
+}
+
+.category-title h1{
+    color: #5e6282;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+}
+.category-title h3{
+    margin-top: 0;
+    font-size: 3.24rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #14183e;
+
+}
+.Services-card{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px 100px;
+    padding-top: 0cm;
+}
+.card{
+    box-shadow: 0.4px 8px 0 #6d6565;
+    transition: 0.3s;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #fffefe;
+    background-clip: border-box;
+    border: 1px solid rgba(0 0 0 0125);
+    border-radius: 1.5rem;
+    margin-left: 35px;
+
+
+}
+.card h4{
+    margin-bottom: 1rem;
+    font-size: 1.26rem;
+    color: #14183e;
+
+}
+
+
+
+
+.card p{
+    font: weight 500px;
+}
