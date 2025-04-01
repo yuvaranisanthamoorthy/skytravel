@@ -191,11 +191,12 @@ body{
 }
 .Services-card{
     align-items: center;
-    display: flex;
+    display: block;
     justify-content: space-evenly;
     align-items: center;
     padding: 30px 100px;
     padding-top: 0cm;
+    margin-bottom: 10px;
 }
 .card{
     box-shadow: 0.4px 8px 0 #6d6565;
@@ -207,7 +208,7 @@ body{
     border: 1px solid rgba(0 0 0 0125);
     border-radius: 1.5rem;
     margin-left: 35px;
-    width: 1000px;
+    margin-bottom: 10px;
 
 
 }
@@ -216,8 +217,17 @@ body{
     font-size: 1.26rem;
     color: #14183e;
 
-}
 
+}
+.type-card{
+    align-items: center;
+    display: block;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+    padding-top: 0cm;
+    margin-bottom: 10px;
+    width: 1000px;
+}
 
 
 
