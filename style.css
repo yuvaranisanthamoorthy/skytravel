@@ -189,7 +189,7 @@ body{
     color: #14183e;
 
 }
-Services-card{
+.Services-card{
     align-items: center;
     display: block;
     justify-content: space-evenly;
@@ -197,6 +197,7 @@ Services-card{
     padding: 30px 100px;
     padding-top: 0cm;
     margin-bottom: 10px;
+    width: 1000px;
 }
 .card{
     box-shadow: 0.4px 8px 0 #6d6565;
