@@ -156,10 +156,15 @@ body{
     px;
     background-color: #05971d;
     color: #fff;
+    margin-left: 2%;
 }
+
 .reset{
     padding: 10px 20px 10px 20px;
     border-radius: 3px;
     background-color: #99250e;
     color: #fff;
+}
+.one{
+    color: white;
 }
