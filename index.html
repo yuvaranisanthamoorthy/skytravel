@@ -2,16 +2,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SKY TRAVELS🚕</title>
+    <title>SKY TRAVELS 🚕</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script src="script.js"></script>
     <header>
-        <img src="travel_logo.jpg" alt="Sky Travels Logo" width="100px">
+        <img src="travel_logo.jpg" alt="Travel Logo" width="100px">
         <nav class="navbar">
-            <button class="menu-toggle">☰</button>
-            <ul class="nav-links">
+            <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="bookus.html">Book Now</a></li>
                 <li><a href="aboutus.html">About Us</a></li>
@@ -25,64 +24,59 @@
 </div>
 
 <section class="hero">
-    <div class="left-content">
-        <img src="InShot_20250329_125021218.png" width="500px" class="hero-img">
-        <h4>Best Destination around the world</h4>
-        <h1>Travel, enjoy and live a new and full life</h1>
-        <p>Reliable and comfortable travel at your fingertips.</p>
-        <button class="contact-btn">Contact</button>
-        <button class="booking-btn">Booking</button>
+    <div class="left-container">
+        <div class="left-content">
+            <img src="hero_image.png" width="500px" class="responsive-img">
+            <h4>Best Destination Around the World</h4>
+            <h1>Travel, Enjoy, and Live a New and Full Life</h1>
+            <p>
+                Explore the world with our premium travel services, offering comfort, safety, and reliability.
+            </p>
+            <button class="contact-btn">Contact</button>
+            <button class="booking-btn">Booking</button>
+        </div>
     </div>
 </section>
 
-<h1 class="title">SKY TRAVELS🚕</h1>
+<h1 class="main-title">SKY TRAVELS 🚕</h1>
 
 <ul class="trip-options">
     <li class="one"><a href="bookus.html">One Way Trip</a></li>
     <li class="two"><a href="bookus.html">Round Trip</a></li>
 </ul>
 
-<h1>Book your ride right now!!!</h1>
+<h1 class="booking-title">Book Your Ride Right Now!</h1>
 
 <form class="booking-form">
-    <label>Pick-Up Location* <input type="text" placeholder="Enter your pick-up location"></label>
-    <label>Drop Location* <input type="text" placeholder="Enter your drop location"></label>
-    <label>Phone Number* <input type="text" placeholder="Phone number"></label>
-    <label>Trip Type*
-        <input type="radio" name="trip" value="one-way"> One Way
-        <input type="radio" name="trip" value="round-trip"> Round Trip
-    </label>
-    <label>Date* <input type="date"></label>
-    <label>Time* <input type="time"></label>
+    <label>Pick-Up Location*</label>
+    <input type="text" placeholder="Enter your pick-up location">
+    
+    <label>Drop Location*</label>
+    <input type="text" placeholder="Enter your drop location">
+    
+    <label>Phone Number*</label>
+    <input type="text" placeholder="Phone number">
+    
+    <label>Trip Type*</label>
+    <input type="radio" name="trip_type"> One Way
+    <input type="radio" name="trip_type"> Round Trip
+    
+    <label>Date*</label>
+    <input type="date">
+    
+    <label>Time*</label>
+    <input type="time">
+    
     <button type="submit" class="submit">Submit</button>
     <button type="reset" class="reset">Reset</button>
 </form>
-
-<section class="services">
-    <h1>OUR SERVICES</h1>
-    <h3>We offer Best Services</h3>
-    <div class="service-cards">
-        <div class="card"><img src="247.jpg" alt="24/7 Services"><h2>24/7 Service</h2></div>
-        <div class="card"><img src="airport.png" alt="Airport Pickup"><h2>Airport Pickup</h2></div>
-        <div class="card"><img src="experienced.jpg" alt="Experienced Driver"><h2>Experienced Drivers</h2></div>
-        <div class="card"><img src="temple.jpg" alt="Temple Trip"><h2>Temple Trip</h2></div>
-        <div class="card"><img src="outstation.jpg" alt="Outstation Services"><h2>Outstation Services</h2></div>
-        <div class="card"><img src="sightseeing.jpg" alt="Chennai Sightseeing"><h2>Chennai Sightseeing</h2></div>
-    </div>
-</section>
-
-<script>
-    document.querySelector(".menu-toggle").addEventListener("click", function() {
-        document.querySelector(".nav-links").classList.toggle("active");
-    });
-</script>
 
 </body>
 </html>
 
 
 
-<!--<DOCTYPE html>
+<!--<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
