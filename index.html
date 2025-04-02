@@ -44,8 +44,30 @@
 </ul>
 
 <h1 class="booking-title" style="text-align: center;">Book Your Ride Right Now!</h1>
-
-<form class="booking-form">
+<form class="booking-form" action="sendMail.php" method="post">
+    <label>Pick-Up Location*</label>
+    <input type="text" name="pickup" placeholder="Enter your pick-up location" required>
+    
+    <label>Drop Location*</label>
+    <input type="text" name="drop" placeholder="Enter your drop location" required>
+    
+    <label>Phone Number*</label>
+    <input type="text" name="phone" placeholder="Phone number" required>
+    
+    <label>Trip Type*</label>
+    <input type="radio" name="trip_type" value="One Way"> One Way
+    <input type="radio" name="trip_type" value="Round Trip"> Round Trip
+    
+    <label>Date*</label>
+    <input type="date" name="date" required>
+    
+    <label>Time*</label>
+    <input type="time" name="time" required>
+    
+    <button type="submit" class="submit">Submit</button>
+    <button type="reset" class="reset">Reset</button>
+</form>
+<!--<form class="booking-form">
     <label>Pick-Up Location*</label>
     <input type="text" placeholder="Enter your pick-up location">
     
@@ -67,7 +89,7 @@
     
     <button type="submit" class="submit">Submit</button>
     <button type="reset" class="reset">Reset</button>
-</form>
+</form>-->
 <section class="title-style" style="margin-bottom: 50px;">
     <div class="category-title">
  <h1 style="text-align: center; width: 100%;">
