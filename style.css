@@ -90,13 +90,13 @@ header {
 .one {
     background-color: rgba(231, 146, 88, 0.8);
     color: aquamarine;
-    margin: 15px;
+    margin: 10px;
 }
 
 .two {
     background-color: rgb(116, 76, 236);
     color: white;
-    margin: 15px;
+    margin: 10px;
 }
 .contact-btn{
     padding: 10px;
