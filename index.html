@@ -1,4 +1,40 @@
-<!DOCTYPE html>
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Taxi Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Taxi Service</div>
+            <button class="menu-toggle">☰</button>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="container">
+        <div class="left-content">
+            <h1>Welcome to Our Taxi Service</h1>
+            <p>Reliable and comfortable travel at your fingertips.</p>
+            <button class="booking-btn">Book Now</button>
+        </div>
+    </section>
+    <script>
+        document.querySelector(".menu-toggle").addEventListener("click", function() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
+
+
+
+<!---<DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
