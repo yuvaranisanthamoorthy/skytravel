@@ -14,7 +14,7 @@ header {
     padding: 15px 30px;
     background: #333;
     color: white;
-    width: auto; 
+    
 }
 
 .navbar ul {
@@ -87,18 +87,20 @@ header {
 }
 
 .one {
-    background-color: rgba(233, 182, 148, 0.8);
+    background-color: rgba(231, 146, 88, 0.8);
     color: aquamarine;
+    margin: 5px;
 }
 
 .two {
-    background-color: rgb(159, 135, 228);
+    background-color: rgb(116, 76, 236);
     color: white;
+    margin: 5px;
 }
 .contact-btn{
     padding: 10px;
     border-radius: 5px;
-    background-color: #99250e;
+    background-color: #c42c0d;
     color: #fff;
     display: inline-block;
     margin-left: 10px;
@@ -106,7 +108,7 @@ header {
 .booking-btn{
     padding: 10px;
     border-radius: 5px;
-    background-color: #044d04;
+    background-color: #127712;
     color: #fff;
     display: inline-block;
     margin-left: 10px;}
