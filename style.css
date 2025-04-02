@@ -152,7 +152,7 @@ header {
     background-clip: border-box;
     border: 1px solid rgba(0 0 0 0125);
     border-radius: 1.5rem;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-right: 10px;
     margin-bottom: 10px;
     width: 300px;
@@ -169,8 +169,8 @@ header {
         background-clip: border-box;
         border: 1px solid rgba(0 0 0 0125);
         border-radius: 1.5rem;
-        margin-left: 10px;
-        margin-right: 0px;
+        margin-left: 60px;
+        margin-right: 30px;
         margin-bottom: 10px;
         width: 350px;
         height: 450px;
@@ -186,7 +186,7 @@ header {
 
 
 }
-.type-card{
+/*.type-card{
     
     display: block;
     justify-content: space-evenly;
@@ -194,7 +194,7 @@ header {
     padding-top: 0cm;
     margin-bottom: 10px;
     width: 500px;
-}
+}*/
 
 
 
