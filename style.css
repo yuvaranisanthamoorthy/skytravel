@@ -23,18 +23,20 @@ header {
 
 .navbar ul li {
     margin: 0 15px;
+    font-size: 10px;
 }
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(15, 14, 14);
 }
 
 .search {
     margin: 20px auto;
-    display: flex;
+    display: block;
     justify-content: center;
     gap: 10px;
+    text-align: center;
 }
 
 .srch {
@@ -43,23 +45,24 @@ header {
     border: 1px solid #ccc;
 }
 
-.btn {
-    padding: 8px 15px;
-    background: #ff9800;
-    border: none;
-    color: white;
-    cursor: pointer;
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(236, 233, 228);
+    border: 5px solid rgb(102, 5, 61);
+    margin-top: 13px;
+    color: rgb(20, 20, 19);
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
+.btn:focus{
+    outline: none;
+}
 .hero {
     padding: 50px;
     text-align: center;
-}
-
-.hero img.responsive-img {
-    width: 100%;
-    max-width: 500px;
-    height: auto;
 }
 
 .main-title {
@@ -91,6 +94,19 @@ header {
     background-color: rgb(159, 135, 228);
     color: white;
 }
+.contact-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #99250e;
+    color: #fff;
+    display: inline-block;
+}
+.booking-btn{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background-color: #044d04;
+    color: #fff;
+    display: inline-block;}
 
 .booking-title {
     font-size: 28px;
@@ -121,11 +137,47 @@ header {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-.left-content{
-    margin-left: 130px;
-    margin-top: 90px;
+.card{
+    box-shadow: 0.4px 8px 0 #6d6565;
+    transition: 0.3s;
+    padding: 2.5rem;
+    text-align: center;
+    background-color: #fffefe;
+    background-clip: border-box;
+    border: 1px solid rgba(0 0 0 0125);
+    border-radius: 1.5rem;
+    margin-left: 70px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 300px;
+   
+
 
 }
+.card h4{
+    margin-bottom: 1rem;
+    font-size: 1.26rem;
+    color: #14183e;
+
+
+}
+.type-card{
+    align-items: center;
+    display: block;
+    justify-content: space-evenly;
+    padding: 30px 100px;
+    padding-top: 0cm;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+
+
+.card p{
+    font: weight 500px;
+}
+
 /*.left-content h4{
  color: #df6951;
  font-weight: 500;
@@ -333,18 +385,8 @@ body{
     
 }*/
 
-.contact-btn{
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    background-color: #99250e;
-    color: #fff;
-}
-.booking-btn{
-    padding: 10px 20px 10px 20px;
-    border-radius: 5px;
-    background-color: #044d04;
-    color: #fff;
-}
+
+
 /*.srch{
     font-family: 'Times New Roman';
     width: 200px;
@@ -423,7 +465,7 @@ body{
     color: #14183e;
 
 }
-.Services-card{
+/*ervices-card{
     align-items: center;
     display: block;
     justify-content: space-evenly;
@@ -432,8 +474,8 @@ body{
     padding-top: 0cm;
     margin-bottom: 10px;
     width: 1000px;
-}
-.card{
+}*/
+/*.card{
     box-shadow: 0.4px 8px 0 #6d6565;
     transition: 0.3s;
     padding: 2.5rem;
@@ -468,4 +510,4 @@ body{
 
 .card p{
     font: weight 500px;
-}
+}*/
