@@ -95,18 +95,20 @@ header {
     color: white;
 }
 .contact-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     background-color: #99250e;
     color: #fff;
     display: inline-block;
+    margin-left: 10px;
 }
 .booking-btn{
-    padding: 10px 20px 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     background-color: #044d04;
     color: #fff;
-    display: inline-block;}
+    display: inline-block;
+    margin-left: 10px;}
 
 .booking-title {
     font-size: 28px;
@@ -155,6 +157,24 @@ header {
 
 
 }
+.card-1{box-shadow: 0.4px 8px 0 #6d6565;
+        transition: 0.3s;
+        padding: 2.5rem;
+        text-align: center;
+        background-color: #fffefe;
+        background-clip: border-box;
+        border: 1px solid rgba(0 0 0 0125);
+        border-radius: 1.5rem;
+        margin-left: 10px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        width: 350px;
+        height: 450px;
+       
+    
+    
+    }
+
 .card h4{
     margin-bottom: 1rem;
     font-size: 1.26rem;
@@ -163,7 +183,7 @@ header {
 
 }
 .type-card{
-    align-items: center;
+    
     display: block;
     justify-content: space-evenly;
     padding: 30px 100px;
