@@ -1,6 +1,7 @@
 <!DOCTYPE html><html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SKY TRAVELS 🚕</title>
     <link rel="stylesheet" href="style.css">
@@ -44,30 +45,9 @@
 </ul>
 
 <h1 class="booking-title" style="text-align: center;">Book Your Ride Right Now!</h1>
-<form class="booking-form" action="sendMail.php" method="post">
-    <label>Pick-Up Location*</label>
-    <input type="text" name="pickup" placeholder="Enter your pick-up location" required>
-    
-    <label>Drop Location*</label>
-    <input type="text" name="drop" placeholder="Enter your drop location" required>
-    
-    <label>Phone Number*</label>
-    <input type="text" name="phone" placeholder="Phone number" required>
-    
-    <label>Trip Type*</label>
-    <input type="radio" name="trip_type" value="One Way"> One Way
-    <input type="radio" name="trip_type" value="Round Trip"> Round Trip
-    
-    <label>Date*</label>
-    <input type="date" name="date" required>
-    
-    <label>Time*</label>
-    <input type="time" name="time" required>
-    
-    <button type="submit" class="submit">Submit</button>
-    <button type="reset" class="reset">Reset</button>
-</form>
-<!--<form class="booking-form">
+
+</script>
+<form class="booking-form">
     <label>Pick-Up Location*</label>
     <input type="text" placeholder="Enter your pick-up location">
     
@@ -89,7 +69,7 @@
     
     <button type="submit" class="submit">Submit</button>
     <button type="reset" class="reset">Reset</button>
-</form>-->
+</form>
 <section class="title-style" style="margin-bottom: 50px;">
     <div class="category-title">
  <h1 style="text-align: center; width: 100%;">
@@ -208,7 +188,61 @@
 
 </div>  
 </div> 
+    </div>
 
+<div class="slider">
+<div class="slides">
+    <input type="radio" id="radio1" name="radios">
+    <input type="radio" id="radio2"  name="radios">
+    <input type="radio" id="radio3"  name="radios">
+    <input type="radio" id="radio4"  name="radios">
+    <input type="radio" id="radio5"  name="radios">
+    <input type="radio" id="radio6"  name="radios">
+    
+    <div class="slide first"><img src="bangalore.jpg" width="350px"></div>
+       <div class="slide"> <img src="coimbatore.jpg" width="350px"></div>
+       
+       <div class="slide" > <img src="madurai.jpg" width="350px"></div>
+       
+       <div class="slide"> <img src="kerala.jpg" width="350px"></div>
+       
+       <div class="slide"> <img src="pondicherry.jpg" width="350px"></div>
+       <div class="slide"> <img src="na.jpg.jpeg" width="350px"></div>
+
+
+    </div>
+
+    <div class="auto">
+        <div class="auto1"></div>
+        <div class="auto2"></div>
+        <div class="auto3"></div>
+        <div class="auto4"></div>
+        <div class="auto5"></div>
+        <div class="auto6"></div>
+    </div>
+    </div>
+    <div class="manual">
+        <label for="radio1" class="manuals"></label>
+        <label for="radio2" class="manuals"></label>
+        <label for="radio3" class="manuals"></label>
+        <label for="radio4" class="manuals"></label>
+        <label for="radio5" class="manuals"></label>
+        <label for="radio6" class="manuals"></label>
+
+
+    </div>
+</div>
+<script>
+    var counter=1;
+    setInterval(function()
+{
+    document.getElementById('radio' + counter).checked  = true;
+    counter = counter + 1;
+    if(counter>6){
+        counter = 1
+    }
+},2500);
+</script>
 </body>
 </html>
 
