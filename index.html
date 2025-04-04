@@ -47,25 +47,26 @@
 <h1 class="booking-title" style="text-align: center;">Book Your Ride Right Now!</h1>
 
 </script>
-<form class="booking-form">
+<form class="booking-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="53fffa3f-6e58-459f-902e-9646b2920bca">
     <label>Pick-Up Location*</label>
-    <input type="text" placeholder="Enter your pick-up location">
+    <input type="text" name="pick-up_location" placeholder="Enter your pick-up location">
     
     <label>Drop Location*</label>
-    <input type="text" placeholder="Enter your drop location">
+    <input type="text" name="drop_location" placeholder="Enter your drop location">
     
     <label>Phone Number*</label>
-    <input type="text" placeholder="Phone number">
+    <input type="number" name="Phone_number" placeholder="Phone number">
     
     <label>Trip Type*</label>
     <input type="radio" name="trip_type"> One Way
     <input type="radio" name="trip_type"> Round Trip
     
     <label>Date*</label>
-    <input type="date">
+    <input type="date" name="date">
     
     <label>Time*</label>
-    <input type="time">
+    <input type="time" name="time">
     
     <button type="submit" class="submit">Submit</button>
     <button type="reset" class="reset">Reset</button>
@@ -199,7 +200,7 @@
     <input type="radio" id="radio5"  name="radios">
     <input type="radio" id="radio6"  name="radios">
     
-    <div class="slide first"><img src="bangalore.jpg" width="350px"></div>
+    <div class="slide first"><img src="bangalore.jpg"></div>
        <div class="slide"> <img src="coimbatore.jpg" width="350px"></div>
        
        <div class="slide" > <img src="madurai.jpg" width="350px"></div>
@@ -226,10 +227,10 @@
         <label for="radio2" class="manuals"></label>
         <label for="radio3" class="manuals"></label>
         <label for="radio4" class="manuals"></label>
-        <label for="radio5" class="manuals"></label>
-        <label for="radio6" class="manuals"></label>
+        <label for="radio5" class="manuals"> </label>
+        <label for="radio6" class="manuals"> </label>
 
-
+/
     </div>
 </div>
 <script>
