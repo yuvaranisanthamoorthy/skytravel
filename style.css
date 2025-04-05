@@ -1,3 +1,6 @@
+ 
+ 
+ 
  * {
     margin: 0;
     padding: 0;
@@ -154,8 +157,6 @@ header {
     margin-left: 90px;
     margin-right: 10px;
     margin-bottom: 10px;
-
-    
     border: 1px solid rgba(0 0 0 0125);
     border-radius: 1.5rem;
     align-items: center;
@@ -314,34 +315,7 @@ header {
     background: yellow;
 }
 
-/*.left-content h4{
- color: #df6951;
- font-weight: 500;
- margin-bottom: 1rem;
- font-size: 15px;
- padding-left: 10%;
- margin-left: 0;
-text-align: center;}
-    
-.left-content h1{
-    font-size: 40px;
-    font-weight: 500;
-    color: #020b49;
-    margin-bottom: 5px;
-    line-height: 1.1;
-    padding-left: 5px;
-    width: 50%;
-    margin-inline-start: 0%;
-    text-align: center;
-}
-.left-content p{
-    margin-top: 1;
-    font-weight: 500;
-    margin-bottom: 1.8;
-    width: 50%;
-    text-align: center;
-    
-}*/
+
 
 .submit, .reset {
     margin-top: 15px;
@@ -356,70 +330,6 @@ text-align: center;}
 .reset {
     background: #dc3545;
 }
-
-/*@media screen and (max-width: 768px) {
-    .navbar ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .trip-options {
-        flex-direction: column;
-    }
-
-    .booking-form {
-        width: 90%;
-    }
-}
-
-
-
-
-Responsive Styles 
- @media screen and (max-width: 768px) { .container { width: 100%; padding: 10px; display: flex; flex-direction: column; align-items: center; text-align: center; }
-
-/*.navbar ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0;
-}
-.navbar li {
-    margin: 10px 0;
-    font-size: 20px;
-}*/
-
-/*.left-content h1 {
-    font-size: 28px;
-    width: auto;
-}
-.left-content p {
-    font-size: 16px;
-    width: auto;
-}
-
-.booking-btn {
-    width: 100%;
-    max-width: 200px;
-    padding: 10px;
-}
-
-}
-
-@media screen and (max-width: 768px)
-{
-    .container{
-        width: 100%;
-        padding: 10px;
-    }
-
-   .services{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-   } 
-}*/
-
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -430,14 +340,7 @@ body{
     background-position: center;
     background-repeat: no-repeat; filter: brightness(100%);
 }
-/* header{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 30px 10px;
- }*/
-
- .navbar li{
+.navbar li{
     list-style: none;
     display: inline-block;
     padding: 0.30px;
@@ -468,11 +371,7 @@ body{
     color: #212832;
  }
 
-/*.search{
-    width: 330px;
-    float: left;
-    margin-left: 270px;
-}*/
+
 .signup-btn{
     border: 2px solid black;
     padding: 5px 10px 5px 10px;
@@ -489,56 +388,7 @@ body{
     margin-top: 90px;
 
 }
-/*.left-content h4{
- color: #df6951;
- font-weight: 500;
- margin-bottom: 1rem;
- font-size: 15px;
- padding-left: 10%;
- margin-left: 0
- 
-;
- 
 
-
-}
-    
-.left-content h1{
-    font-size: 40px;
-    font-weight: 500;
-    color: #020b49;
-    margin-bottom: 5px;
-    line-height: 1.1;
-    padding-left: 5px;
-    width: 50%;
-    margin-inline-start: 0%;
-}
-.left-content p{
-    margin-top: 1;
-    font-weight: 500;
-    margin-bottom: 1.8;
-    width: 50%;
-    
-}*/
-
-
-
-/*.srch{
-    font-family: 'Times New Roman';
-    width: 200px;
-    height: 40px;
-    background: transparent;
-    border: 5px solid rgb(102, 5, 61);
-    margin-top: 13px;
-    color: orange;
-    border-right: none;
-    font-size: 16px;
-    float: left;
-    padding: 10px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-
-}*/
 
 
 
@@ -601,49 +451,3 @@ body{
     color: #14183e;
 
 }
-/*ervices-card{
-    align-items: center;
-    display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 30px 100px;
-    padding-top: 0cm;
-    margin-bottom: 10px;
-    width: 1000px;
-}*/
-/*.card{
-    box-shadow: 0.4px 8px 0 #6d6565;
-    transition: 0.3s;
-    padding: 2.5rem;
-    text-align: center;
-    background-color: #fffefe;
-    background-clip: border-box;
-    border: 1px solid rgba(0 0 0 0125);
-    border-radius: 1.5rem;
-    margin-left: 35px;
-    margin-bottom: 10px;
-
-
-}
-.card h4{
-    margin-bottom: 1rem;
-    font-size: 1.26rem;
-    color: #14183e;
-
-
-}
-.type-card{
-    align-items: center;
-    display: block;
-    justify-content: space-evenly;
-    padding: 30px 100px;
-    padding-top: 0cm;
-    margin-bottom: 10px;
-    width: 1000px;
-}
-
-
-
-.card p{
-    font: weight 500px;
-}*/
